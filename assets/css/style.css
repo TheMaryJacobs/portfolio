@@ -1,3 +1,71 @@
 @charset "UTF-8";
 /* CSS Document */
+/* * Teal color (used for headings and backgrounds): `#4aaaa5`
+* Regular font color (used for paragraphs and all text besides the headings): `#777777`
+* Main header background color: `#ffffff`
+* Main header border color: `#cccccc`
+* Footer background color: `#666666`
+* Main content background color: `#ffffff`
+* Main content border color: `#dddddd` */
 
+
+
+
+body{
+   background-image: url(./"../images/herringbone.png");
+   background-color:#ffffff;
+}
+
+header{
+	background-color:#ffffff;
+	height: 50px;
+}
+a{
+font-family: 
+	
+}
+li{
+color: yellowgreen;
+text-decoration: none;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav{
+   
+
+}
+.navlinks{
+	list-style:none;
+	
+}
+
+.navlinks li{
+	display: inline-block;
+	padding: 0px 20px;
+	
+
+
+}
+
+header{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+}
+
+.logo{
+	
+	
+}
+
+
+.headshot{
+    width: 250px;
+
+}
+.bodycontent{
+border: lightcoral;
+border-width: 10px;
+
+}
