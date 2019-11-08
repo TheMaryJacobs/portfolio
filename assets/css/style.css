@@ -10,6 +10,7 @@
 
 body{
    background-color: #85B1B5;
+   height: 100%;
 }
 
 header{
@@ -24,12 +25,13 @@ header{
 
 li{
 text-decoration: none;
-font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
 a{
-	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-family: 'Big Shoulders Text', cursive;
+	text-transform:uppercase;
+	font-size: 26px;
 	color: dimgray;
 	text-decoration: none;
 	padding-left: 0px;
@@ -64,18 +66,18 @@ a{
 	bottom: -5px;
 }
 
-
-
+}
 hr{
 	border-color:#85B1B5;
 }
 
 .bodycontent{
 	background-color: #FFFFFF;
-	padding: 50px 50px;
-	align-content: center;
+	padding: 50px 50px 50px 50px;
 	width: 960px;
-	margin: 20px auto;
+	margin: auto;
+	margin-top: 75px;
+	
 	
 }
 .wrap {
@@ -90,18 +92,30 @@ hr{
 
 	
 p{
-	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+	line-height: 24px;
 	padding: 20px;
 	display:flex;
 }
-	
+.pagetitle{
+    font-family: 'Big Shoulders Text', cursive;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	line-height: 38px;
+    font-size: 36px;
+    color: white;	
+}
+
 footer{
-/*	position:fixed;*/
+    position:fixed;
+    bottom: 0px;
 	background-color:#666666;
-	height: auto;
+	height: 50px;
 	display:inline-flex;
 	justify-content:center;
-	width:100%;
+    width:100%;
+    margin-top: -50px;
 }
 
 .a2{
@@ -110,7 +124,8 @@ footer{
 }
 .navlinks2{
 	list-style:none;
-	padding-top: 10px;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
 	align-items: center;
 }
 
@@ -118,4 +133,24 @@ footer{
 	display: inline-flex;
 	padding: 20px 20px;
 	justify-content: center;
+}
+
+h2 {
+    font-family: 'Big Shoulders Text', cursive;
+	font-size: 36px;
+}
+
+.photolist{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallerypic{
+    position: relative;
+    
+}
+.absolute{
+    background-color: #85B1B5;
+    height: 100px;
+    width: 250px;
 }
