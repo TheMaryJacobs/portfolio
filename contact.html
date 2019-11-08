@@ -10,7 +10,7 @@
 
 <body>
 	<header>
-		<img class="logo" src="assets/images/mjlogoturq.png" alt="logo" width=100px>
+		
 		<nav>
 			<ul class="navlinks">
 				<li><a href="#index.html">Home</a></li>
@@ -26,13 +26,23 @@
 		<div class="bodycontent">
 		<div>
 			<h2>LET'S BUILD SOMETHING BEAUTIFUL</h2>
-				<hr noshade>
-		<form>
-			<p>Drop me a line</p>
-			<input field="hello">
-			<input field="hello2">
-			<input field="hello3">		
-		</form>
+			<hr noshade>
+		<p>Tell me what you have in mind.</p>	
+			
+<!--Thanks W3 - https://www.w3schools.com/howto/howto_css_contact_form.asp-->
+	<form action="action_page.php">
+
+    	<label for="fname">Full Name</label>
+    	<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    	<label for="lname">Project</label>
+    	<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+   	 	<label for="Message">Message</label>
+    	<textarea id="message" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    	<input type="submit" value="Submit">
+	</form>
 		</div>
 	</div>
 
@@ -44,6 +54,10 @@
 			<li><a class="a2" href="https://www.linkedin.com/in/mary-jacobs-creative-arts/">LinkedIn</a></li>
 			<li><a class="a2" href="#">Graphic Design Portfolio</a></li>
 		</ul>
+			<div class="bottombox">
+			<img class="footlogo" alt="logo" src="assets/images/MJLogo.png">
+		</div>
+	</footer>
 	</div>
 </footer>
 	
